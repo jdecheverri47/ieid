@@ -146,7 +146,7 @@ class _LoginPageState extends State<LoginPage> {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 30.0),
+                  padding: EdgeInsets.symmetric(horizontal: 50),
                   child: Text('Forgot Password?',
                   style: TextStyle(
                     color: Colors.black,
@@ -194,12 +194,12 @@ class _LoginPageState extends State<LoginPage> {
 
             const SizedBox(height: 30),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 25),
+              padding: const EdgeInsets.symmetric(horizontal: 45),
               child: ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.grey.shade200,
-                  minimumSize: const Size(340, 50),
+                  minimumSize: const Size(220, 50),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),
@@ -210,8 +210,8 @@ class _LoginPageState extends State<LoginPage> {
                   children: [
                     Image.asset(
                       'lib/images/google.png',
-                      height: 30,
-                      width: 30,
+                      height: 25,
+                      width: 25,
                     ),
                     const SizedBox(width: 10,),
                     const Text('Login with Google',

@@ -116,7 +116,6 @@
 				2D26F3385EC08C4FB44EA95E /* Pods-RunnerTests.release.xcconfig */,
 				C86DA93B7691D83805A97002 /* Pods-RunnerTests.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -220,7 +219,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				ORGANIZATIONNAME = "";
+				ORGANIZATIONNAME = ie;
 				TargetAttributes = {
 					331C8080294A63A400263BE5 = {
 						CreatedOnToolsVersion = 14.0;
